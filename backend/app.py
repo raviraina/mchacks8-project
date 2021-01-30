@@ -77,13 +77,16 @@ def request_stock_from_api():
 
 
 # USE FOR TEST PURPOSES
-@app.route('/api/display_stock_test')
-def display_stock_test():
-    return {"shortRatio": 2.81,
+@app.route('/api/request_stock_test', methods=["POST"])
+def request_stock_test():
+
+    requested_stock = json.loads(request.data)["question"]
+
+    return {"answer": {"shortRatio": 2.81,
             "shortPercentOfFloat": 2.2642,
             "dateShortInterest": 1610668800,
             "averageDailyVolume10Day": 108662562,
-            "shortTermTrend": "UP"}
+            "shortTermTrend": "UP"}}
 
 
 if __name__ == '__main__':

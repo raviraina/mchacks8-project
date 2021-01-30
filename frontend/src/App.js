@@ -34,7 +34,7 @@ class App extends Component {
   fetchAnswer = async () => {
     const { question } = this.state;
     const { data } = await axios.post(
-      `${process.env.REACT_APP_API_URL}/request_stock_from_api`, { question }
+      `${process.env.REACT_APP_API_URL}/request_stock_test`, { question }
     );
     const { answer } = data;
     this.setState({answer})
@@ -56,7 +56,11 @@ class App extends Component {
           </label>
           <input type="submit" value="Submit" />
         </form>
-        <h1>Answer: {answer}</h1>
+        <h1>shortRatio: {answer.shortRatio}</h1>
+        <h1>shortPercentOfFloat: {answer.shortPercentOfFloat}</h1>
+        <h1>dateShortInterest: {answer.dateShortInterest}</h1>
+        <h1>averageDailyVolume10Day: {answer.averageDailyVolume10Day}</h1>
+        <h1>shortTermTrend: {answer.shortTermTrend}</h1>
         </header>
       </div>
     );
