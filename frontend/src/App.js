@@ -34,7 +34,7 @@ class App extends Component {
   fetchAnswer = async () => {
     const { question } = this.state;
     const { data } = await axios.post(
-      `${process.env.REACT_APP_API_URL}/submit_question`, { question }
+      `${process.env.REACT_APP_API_URL}/request_stock_from_api`, { question }
     );
     const { answer } = data;
     this.setState({answer})

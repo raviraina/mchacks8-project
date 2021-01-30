@@ -23,19 +23,23 @@ def submit_question():
     return {"answer": f"You Q was {len(question)} chars long"}
 
 # DO NOT USE UNTIL DEPLOYMENT
-@app.route('/api/display_stock_from_api')
-def display_stock_from_api():
+@app.route('/api/request_stock_from_api', methods=["POST"])
+def request_stock_from_api():
 
-    url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-statistics"
-
-    querystring = {"symbol":"AMRN","region":"US"}
-
-    headers = {
-        'x-rapidapi-key': "1fec4aafacmshc45c20a505b3ab7p136a93jsn1bdcad2e1278",
-        'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
-        }
-
-    response = requests.request("GET", url, headers=headers, params=querystring).json()
+    # change "question" with whatever named in App.js
+    requested_stock = json.loads(request.data)["question"]
+    
+    try:
+    # get stock info
+        url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-statistics"
+        querystring = {"symbol":f"{requested_stock}","region":"US"}
+        headers = {
+            'x-rapidapi-key': "1fec4aafacmshc45c20a505b3ab7p136a93jsn1bdcad2e1278",
+            'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
+            }
+        response = requests.request("GET", url, headers=headers, params=querystring).json()
+    except:
+        return 'No stock found with requested symbol. Please enter an exact symbol like "GME".'
 
     try:
         ratio = response["defaultKeyStatistics"]["shortRatio"]["raw"]
@@ -62,11 +66,14 @@ def display_stock_from_api():
     except:
         short_term_trend = "None"
 
-    return {"shortRatio": ratio,
-            "shortPercentOfFloat": percent_float,
-            "dateShortInterest": date_short_interest,
-            "averageDailyVolume10Day": avg_vol_10_day,
-            "shortTermTrend": short_term_trend}
+    # return {"answer": [{"shortRatio": ratio,
+    #         "shortPercentOfFloat": percent_float,
+    #         "dateShortInterest": date_short_interest,
+    #         "averageDailyVolume10Day": avg_vol_10_day,
+    #         "shortTermTrend": short_term_trend}]}
+
+    # temp return for functionality test
+    return {"answer": [ratio, percent_float, date_short_interest, avg_vol_10_day, short_term_trend]}
 
 
 # USE FOR TEST PURPOSES
