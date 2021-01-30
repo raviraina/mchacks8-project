@@ -1,0 +1,720 @@
+{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {
+      "raw": 2.753,
+      "fmt": "2.75"
+    },
+    "beta3Year": {},
+    "profitMargins": {
+      "raw": -0.053239997,
+      "fmt": "-5.32%"
+    },
+    "enterpriseToEbitda": {
+      "raw": -109.832,
+      "fmt": "-109.83"
+    },
+    "52WeekChange": {
+      "raw": 49.416668,
+      "fmt": "4,941.67%"
+    },
+    "morningStarRiskRating": {},
+    "forwardEps": {
+      "raw": -0.17,
+      "fmt": "-0.17"
+    },
+    "revenueQuarterlyGrowth": {},
+    "sharesOutstanding": {
+      "raw": 69747000,
+      "fmt": "69.75M",
+      "longFmt": "69,747,000"
+    },
+    "fundInceptionDate": {},
+    "annualReportExpenseRatio": {},
+    "totalAssets": {},
+    "bookValue": {
+      "raw": 5.095,
+      "fmt": "5.09"
+    },
+    "sharesShort": {
+      "raw": 61782730,
+      "fmt": "61.78M",
+      "longFmt": "61,782,730"
+    },
+    "sharesPercentSharesOut": {
+      "raw": 0.8858,
+      "fmt": "88.58%"
+    },
+    "fundFamily": null,
+    "lastFiscalYearEnd": {
+      "raw": 1580515200,
+      "fmt": "2020-02-01"
+    },
+    "heldPercentInstitutions": {
+      "raw": 1.2204499,
+      "fmt": "122.04%"
+    },
+    "netIncomeToCommon": {
+      "raw": -270000000,
+      "fmt": "-270M",
+      "longFmt": "-270,000,000"
+    },
+    "trailingEps": {
+      "raw": -4.224,
+      "fmt": "-4.22"
+    },
+    "lastDividendValue": {
+      "raw": 0.38,
+      "fmt": "0.38"
+    },
+    "SandP52WeekChange": {
+      "raw": 0.17419207,
+      "fmt": "17.42%"
+    },
+    "priceToBook": {
+      "raw": 63.78803,
+      "fmt": "63.79"
+    },
+    "heldPercentInsiders": {
+      "raw": 0.27334,
+      "fmt": "27.33%"
+    },
+    "nextFiscalYearEnd": {
+      "raw": 1643673600,
+      "fmt": "2022-02-01"
+    },
+    "yield": {},
+    "mostRecentQuarter": {
+      "raw": 1604102400,
+      "fmt": "2020-10-31"
+    },
+    "shortRatio": {
+      "raw": 2.81,
+      "fmt": "2.81"
+    },
+    "sharesShortPreviousMonthDate": {
+      "raw": 1607990400,
+      "fmt": "2020-12-15"
+    },
+    "floatShares": {
+      "raw": 46888789,
+      "fmt": "46.89M",
+      "longFmt": "46,888,789"
+    },
+    "beta": {
+      "raw": 1.433298,
+      "fmt": "1.43"
+    },
+    "enterpriseValue": {
+      "raw": 14212211712,
+      "fmt": "14.21B",
+      "longFmt": "14,212,211,712"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {},
+    "lastSplitDate": {
+      "raw": 1174262400,
+      "fmt": "2007-03-19"
+    },
+    "lastSplitFactor": "2:1",
+    "legalType": null,
+    "lastDividendDate": {
+      "raw": 1552521600,
+      "fmt": "2019-03-14"
+    },
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "dateShortInterest": {
+      "raw": 1610668800,
+      "fmt": "2021-01-15"
+    },
+    "pegRatio": {
+      "raw": 0.18,
+      "fmt": "0.18"
+    },
+    "ytdReturn": {},
+    "forwardPE": {
+      "raw": -1911.7646,
+      "fmt": "-1,911.76"
+    },
+    "maxAge": 1,
+    "lastCapGain": {},
+    "shortPercentOfFloat": {
+      "raw": 2.2642,
+      "fmt": "226.42%"
+    },
+    "sharesShortPriorMonth": {
+      "raw": 68127116,
+      "fmt": "68.13M",
+      "longFmt": "68,127,116"
+    },
+    "impliedSharesOutstanding": {},
+    "category": null,
+    "fiveYearAverageReturn": {}
+  },
+  "financialsTemplate": {
+    "code": "N",
+    "maxAge": 1
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 379.71,
+      "fmt": "379.71"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 26427859,
+      "fmt": "26.43M",
+      "longFmt": "26,427,859"
+    },
+    "exchange": "NYQ",
+    "regularMarketTime": 1611954002,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 413.9781,
+      "fmt": "413.98"
+    },
+    "shortName": "GameStop Corporation",
+    "averageDailyVolume10Day": {
+      "raw": 108662562,
+      "fmt": "108.66M",
+      "longFmt": "108,662,562"
+    },
+    "longName": "GameStop Corp.",
+    "regularMarketChange": {
+      "raw": 131.4,
+      "fmt": "131.40"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 193.6,
+      "fmt": "193.60"
+    },
+    "postMarketTime": 1611968291,
+    "preMarketPrice": {
+      "raw": 379,
+      "fmt": "379.00"
+    },
+    "preMarketTime": 1611930599,
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": -11,
+      "fmt": "-11.00"
+    },
+    "postMarketPrice": {
+      "raw": 314,
+      "fmt": "314.00"
+    },
+    "exchangeName": "NYSE",
+    "preMarketChange": {
+      "raw": 185.4,
+      "fmt": "185.40"
+    },
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 250,
+      "fmt": "250.00"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 325,
+      "fmt": "325.00"
+    },
+    "regularMarketVolume": {
+      "raw": 48559406,
+      "fmt": "48.56M",
+      "longFmt": "48,559,406.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "FREE_REALTIME",
+    "openInterest": {},
+    "marketState": "POST",
+    "underlyingSymbol": null,
+    "marketCap": {
+      "raw": 22667776000,
+      "fmt": "22.67B",
+      "longFmt": "22,667,776,000.00"
+    },
+    "quoteType": "EQUITY",
+    "preMarketChangePercent": {
+      "raw": 0.95764506,
+      "fmt": "95.76%"
+    },
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "GME",
+    "postMarketChangePercent": {
+      "raw": -0.033846155,
+      "fmt": "-3.38%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.67871904,
+      "fmt": "67.87%"
+    }
+  },
+  "financialData": {
+    "ebitdaMargins": {
+      "raw": -0.02507,
+      "fmt": "-2.51%"
+    },
+    "profitMargins": {
+      "raw": -0.053239997,
+      "fmt": "-5.32%"
+    },
+    "grossMargins": {
+      "raw": 0.27281,
+      "fmt": "27.28%"
+    },
+    "operatingCashflow": {
+      "raw": 199200000,
+      "fmt": "199.2M",
+      "longFmt": "199,200,000"
+    },
+    "revenueGrowth": {
+      "raw": -0.302,
+      "fmt": "-30.20%"
+    },
+    "operatingMargins": {
+      "raw": -0.04196,
+      "fmt": "-4.20%"
+    },
+    "ebitda": {
+      "raw": -129400000,
+      "fmt": "-129.4M",
+      "longFmt": "-129,400,000"
+    },
+    "targetLowPrice": {
+      "raw": 3.5,
+      "fmt": "3.50"
+    },
+    "recommendationKey": "hold",
+    "grossProfits": {
+      "raw": 1908700000,
+      "fmt": "1.91B",
+      "longFmt": "1,908,700,000"
+    },
+    "freeCashflow": {
+      "raw": 14250000,
+      "fmt": "14.25M",
+      "longFmt": "14,250,000"
+    },
+    "targetMedianPrice": {
+      "raw": 12.5,
+      "fmt": "12.50"
+    },
+    "currentPrice": {
+      "raw": 325,
+      "fmt": "325.00"
+    },
+    "earningsGrowth": {},
+    "currentRatio": {
+      "raw": 1.048,
+      "fmt": "1.05"
+    },
+    "returnOnAssets": {
+      "raw": -0.04711,
+      "fmt": "-4.71%"
+    },
+    "numberOfAnalystOpinions": {
+      "raw": 8,
+      "fmt": "8",
+      "longFmt": "8"
+    },
+    "targetMeanPrice": {
+      "raw": 13.44,
+      "fmt": "13.44"
+    },
+    "debtToEquity": {
+      "raw": 347.712,
+      "fmt": "347.71"
+    },
+    "returnOnEquity": {
+      "raw": -0.56883997,
+      "fmt": "-56.88%"
+    },
+    "targetHighPrice": {
+      "raw": 33,
+      "fmt": "33.00"
+    },
+    "totalCash": {
+      "raw": 445900000,
+      "fmt": "445.9M",
+      "longFmt": "445,900,000"
+    },
+    "totalDebt": {
+      "raw": 1155100032,
+      "fmt": "1.16B",
+      "longFmt": "1,155,100,032"
+    },
+    "totalRevenue": {
+      "raw": 5161800192,
+      "fmt": "5.16B",
+      "longFmt": "5,161,800,192"
+    },
+    "totalCashPerShare": {
+      "raw": 6.393,
+      "fmt": "6.39"
+    },
+    "financialCurrency": "USD",
+    "maxAge": 86400,
+    "revenuePerShare": {
+      "raw": 79.321,
+      "fmt": "79.32"
+    },
+    "quickRatio": {
+      "raw": 0.334,
+      "fmt": "0.33"
+    },
+    "recommendationMean": {
+      "raw": 3.5,
+      "fmt": "3.50"
+    }
+  },
+  "quoteType": {
+    "exchange": "NYQ",
+    "shortName": "GameStop Corporation",
+    "longName": "GameStop Corp.",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-18000000",
+    "quoteType": "EQUITY",
+    "symbol": "GME",
+    "messageBoardId": "finmb_1342560",
+    "market": "us_market"
+  },
+  "calendarEvents": {
+    "maxAge": 1,
+    "earnings": {
+      "earningsDate": [
+        {
+          "raw": 1616544000,
+          "fmt": "2021-03-24"
+        },
+        {
+          "raw": 1616976000,
+          "fmt": "2021-03-29"
+        }
+      ],
+      "earningsAverage": {
+        "raw": 1.42,
+        "fmt": "1.42"
+      },
+      "earningsLow": {
+        "raw": 0.84,
+        "fmt": "0.84"
+      },
+      "earningsHigh": {
+        "raw": 1.83,
+        "fmt": "1.83"
+      },
+      "revenueAverage": {
+        "raw": 2293450000,
+        "fmt": "2.29B",
+        "longFmt": "2,293,450,000"
+      },
+      "revenueLow": {
+        "raw": 2085220000,
+        "fmt": "2.09B",
+        "longFmt": "2,085,220,000"
+      },
+      "revenueHigh": {
+        "raw": 2727000000,
+        "fmt": "2.73B",
+        "longFmt": "2,727,000,000"
+      }
+    },
+    "exDividendDate": {
+      "raw": 1552521600,
+      "fmt": "2019-03-14"
+    },
+    "dividendDate": {
+      "raw": 1553817600,
+      "fmt": "2019-03-29"
+    }
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 193.6,
+      "fmt": "193.60"
+    },
+    "regularMarketOpen": {
+      "raw": 379.71,
+      "fmt": "379.71"
+    },
+    "twoHundredDayAverage": {
+      "raw": 17.329424,
+      "fmt": "17.33"
+    },
+    "trailingAnnualDividendYield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "payoutRatio": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 413.9781,
+      "fmt": "413.98"
+    },
+    "navPrice": {},
+    "averageDailyVolume10Day": {
+      "raw": 108662562,
+      "fmt": "108.66M",
+      "longFmt": "108,662,562"
+    },
+    "totalAssets": {},
+    "regularMarketPreviousClose": {
+      "raw": 193.6,
+      "fmt": "193.60"
+    },
+    "fiftyDayAverage": {
+      "raw": 43.646667,
+      "fmt": "43.65"
+    },
+    "trailingAnnualDividendRate": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "open": {
+      "raw": 379.71,
+      "fmt": "379.71"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 108662562,
+      "fmt": "108.66M",
+      "longFmt": "108,662,562"
+    },
+    "expireDate": {},
+    "yield": {},
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {
+      "raw": 1552521600,
+      "fmt": "2019-03-14"
+    },
+    "beta": {
+      "raw": 1.433298,
+      "fmt": "1.43"
+    },
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 250,
+      "fmt": "250.00"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 48559406,
+      "fmt": "48.56M",
+      "longFmt": "48,559,406"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {
+      "raw": 22667776000,
+      "fmt": "22.67B",
+      "longFmt": "22,667,776,000"
+    },
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 26427859,
+      "fmt": "26.43M",
+      "longFmt": "26,427,859"
+    },
+    "priceToSalesTrailing12Months": {
+      "raw": 4.3914475,
+      "fmt": "4.39"
+    },
+    "dayLow": {
+      "raw": 250,
+      "fmt": "250.00"
+    },
+    "ask": {
+      "raw": 314,
+      "fmt": "314.00"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1400,
+      "fmt": "1.4k",
+      "longFmt": "1,400"
+    },
+    "volume": {
+      "raw": 48559406,
+      "fmt": "48.56M",
+      "longFmt": "48,559,406"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 483,
+      "fmt": "483.00"
+    },
+    "forwardPE": {
+      "raw": -1911.7646,
+      "fmt": "-1,911.76"
+    },
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 2.57,
+      "fmt": "2.57"
+    },
+    "bid": {
+      "raw": 313.05,
+      "fmt": "313.05"
+    },
+    "tradeable": false,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 900,
+      "fmt": "900",
+      "longFmt": "900"
+    },
+    "dayHigh": {
+      "raw": 413.9781,
+      "fmt": "413.98"
+    }
+  },
+  "symbol": "GME",
+  "pageViews": {
+    "shortTermTrend": "UP",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  },
+  "quoteData": {
+    "GME": {
+      "sourceInterval": 15,
+      "quoteSourceName": "Delayed Quote",
+      "regularMarketOpen": {
+        "raw": 379.71,
+        "fmt": "379.71"
+      },
+      "exchange": "NYQ",
+      "regularMarketTime": {
+        "raw": 1611954002,
+        "fmt": "4:00PM EST"
+      },
+      "fiftyTwoWeekRange": {
+        "raw": "2.57 - 483.0",
+        "fmt": "2.57 - 483.00"
+      },
+      "sharesOutstanding": {
+        "raw": 69747000,
+        "fmt": "69.747M",
+        "longFmt": "69,747,000"
+      },
+      "regularMarketDayHigh": {
+        "raw": 413.9781,
+        "fmt": "413.98"
+      },
+      "shortName": "GameStop Corporation",
+      "longName": "GameStop Corp.",
+      "exchangeTimezoneName": "America/New_York",
+      "regularMarketChange": {
+        "raw": 131.4,
+        "fmt": "131.40"
+      },
+      "regularMarketPreviousClose": {
+        "raw": 193.6,
+        "fmt": "193.60"
+      },
+      "fiftyTwoWeekHighChange": {
+        "raw": -158,
+        "fmt": "-158.00"
+      },
+      "exchangeTimezoneShortName": "EST",
+      "fiftyTwoWeekLowChange": {
+        "raw": 322.43,
+        "fmt": "322.43"
+      },
+      "exchangeDataDelayedBy": 0,
+      "regularMarketDayLow": {
+        "raw": 250,
+        "fmt": "250.00"
+      },
+      "priceHint": 2,
+      "currency": "USD",
+      "regularMarketPrice": {
+        "raw": 325,
+        "fmt": "325.00"
+      },
+      "regularMarketVolume": {
+        "raw": 48559406,
+        "fmt": "48.559M",
+        "longFmt": "48,559,406"
+      },
+      "isLoading": false,
+      "triggerable": true,
+      "gmtOffSetMilliseconds": -18000000,
+      "firstTradeDateMilliseconds": 1013610600000,
+      "region": "US",
+      "marketState": "POST",
+      "marketCap": {
+        "raw": 22667776000,
+        "fmt": "22.668B",
+        "longFmt": "22,667,776,000"
+      },
+      "quoteType": "EQUITY",
+      "invalid": false,
+      "symbol": "GME",
+      "language": "en-US",
+      "fiftyTwoWeekLowChangePercent": {
+        "raw": 125.459145,
+        "fmt": "12,545.91%"
+      },
+      "regularMarketDayRange": {
+        "raw": "250.0 - 413.9781",
+        "fmt": "250.00 - 413.98"
+      },
+      "messageBoardId": "finmb_1342560",
+      "fiftyTwoWeekHigh": {
+        "raw": 483,
+        "fmt": "483.00"
+      },
+      "fiftyTwoWeekHighChangePercent": {
+        "raw": -0.32712215,
+        "fmt": "-32.71%"
+      },
+      "uuid": "8ded85bd-8171-3e2e-afa6-c81272285147",
+      "market": "us_market",
+      "fiftyTwoWeekLow": {
+        "raw": 2.57,
+        "fmt": "2.57"
+      },
+      "regularMarketChangePercent": {
+        "raw": 67.8719,
+        "fmt": "67.87%"
+      },
+      "fullExchangeName": "NYSE",
+      "tradeable": false
+    }
+  },
+  "mktmData": {}
+}
