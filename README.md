@@ -1,6 +1,6 @@
 EAT MY SHORTS
 
-Developped by Oliver Leiriao & Ravi Raina
+Developed by Oliver Leiriao & Ravi Raina
 
 How did r/wallstreetbets discover an oportunity to trap greedy hedgefunds and realize unbelievable returns? 
 By looking at a few key statistics publicly available that when combined can help get an idea of how bad a company's stock is being shorted, how long until that short position comes due, and how likely, given the current stock price's fluctuations, an individual investor can realize a quick and significant (albeit, risky) gain.
