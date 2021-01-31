@@ -34,8 +34,8 @@ def request_stock_from_api():
         url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-statistics"
         querystring = {"symbol":f"{requested_stock.upper()}","region":"US"}
         headers = {
-            'x-rapidapi-key': "1fec4aafacmshc45c20a505b3ab7p136a93jsn1bdcad2e1278",
-            'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
+            'x-rapidapi-key': "KEY",
+            'x-rapidapi-host': "HOST"
             }
         response = requests.request("GET", url, headers=headers, params=querystring).json()
     except:
