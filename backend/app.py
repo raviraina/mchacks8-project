@@ -6,21 +6,21 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-# NOTE: This route is needed for the default EB health check route
+# Do not delete
 @app.route('/')
 def home():
     return "ok"
 
 # testing method
-@app.route('/api/get_topics')
-def get_topics():
-    return {"topics": ["topic1", "other stuff", "next topic"]}
+# @app.route('/api/get_test')
+# def get_topics():
+#     return {"test": ["a", "b", "c"]}
 
 # testing method
-@app.route('/api/submit_question', methods=["POST"])
-def submit_question():
-    question = json.loads(request.data)["question"]
-    return {"answer": f"You Q was {len(question)} chars long"}
+# @app.route('/api/submit_question', methods=["POST"])
+# def submit_question():
+#     question = json.loads(request.data)["question"]
+#     return {"answer": "nice input!"}
 
 # DO NOT USE UNTIL DEPLOYMENT
 @app.route('/api/request_stock_from_api', methods=["POST"])
@@ -32,7 +32,7 @@ def request_stock_from_api():
     try:
     # get stock info
         url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-statistics"
-        querystring = {"symbol":f"{requested_stock}","region":"US"}
+        querystring = {"symbol":f"{requested_stock.upper()}","region":"US"}
         headers = {
             'x-rapidapi-key': "1fec4aafacmshc45c20a505b3ab7p136a93jsn1bdcad2e1278",
             'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com"
@@ -66,14 +66,14 @@ def request_stock_from_api():
     except:
         short_term_trend = "None"
 
-    # return {"answer": [{"shortRatio": ratio,
-    #         "shortPercentOfFloat": percent_float,
-    #         "dateShortInterest": date_short_interest,
-    #         "averageDailyVolume10Day": avg_vol_10_day,
-    #         "shortTermTrend": short_term_trend}]}
+    return {"answer": {"shortRatio": ratio,
+            "shortPercentOfFloat": percent_float,
+            "dateShortInterest": date_short_interest,
+            "averageDailyVolume10Day": avg_vol_10_day,
+            "shortTermTrend": short_term_trend}}
 
     # temp return for functionality test
-    return {"answer": [ratio, percent_float, date_short_interest, avg_vol_10_day, short_term_trend]}
+    #return {"answer": [ratio, percent_float, date_short_interest, avg_vol_10_day, short_term_trend]}
 
 
 # USE FOR TEST PURPOSES

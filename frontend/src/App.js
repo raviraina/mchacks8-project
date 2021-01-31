@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom'
 import axios from 'axios';
 import './App.css';
+import logo from './logo.png'
 
 class App extends Component {
+
+  componentDidMount(){
+    document.title = "Eat My Shorts"
+  }
+
   state = {
-    topics: ["Loading..."],
     question: "",
     answer: "",
-    recc: ""
-  }
-
-  componentDidMount() {
-    this.fetchTopics()
-  }
-
-  fetchTopics = async () => {
-    const { data } = await axios.get(
-      `${process.env.REACT_APP_API_URL}/get_topics`,
-    );
-    const { topics } = data;
-    this.setState({topics})
+    recc: "",
+    ratiofield: "",
+    shortpercent: "",
+    avgvol: "",
+    shorttrend: ""
   }
 
   handleChange = (event) => {
@@ -34,11 +32,13 @@ class App extends Component {
   fetchAnswer = async () => {
     const { question } = this.state;
     const { data } = await axios.post(
-      `${process.env.REACT_APP_API_URL}/request_stock_test`, { question }
+      `${process.env.REACT_APP_API_URL}/request_stock_from_api`, { question }
     );
     this.state.hidden = !this.state.hidden;
     const { answer } = data;
     this.setState({answer});
+    console.log(answer)
+    this.setFields();
     this.setRecc();
   }
 
@@ -63,29 +63,45 @@ class App extends Component {
     }else if(score>=1){
       recc = "There is little opportunity for a short squeeze with this stock."
     }
-  
+    
+    
     this.setState({recc});
   }
 
+  setFields = async () => {
+    let ratiofield = "Short Ratio: "
+    let shortpercent = "Short Percent of Float: "
+    let avgvol = "Average Daily Volume (10-Day): "
+    let shorttrend = "Short Term Trend:"
+    this.setState({ratiofield})
+    this.setState({shortpercent})
+    this.setState({avgvol})
+    this.setState({shorttrend})
+  }
+
+  
+
   render() {
-    const { topics, question, answer, recc } = this.state;
+    const { topics, question, answer, recc, ratiofield, shortpercent, avgvol, shorttrend} = this.state;
 
     return (
       <div className="App">
         <header className="App-header">
         <h1>Eat My Shorts</h1>
+        <div>Find the next big short squeeze opportunity</div>
+        <img src={logo} alt="BigCo Inc. logo"/>
         <form onSubmit={this.handleSubmit}>
           <label>
-            Enter a Stock Ticker: 
-            <input type="text" value={question} onChange={this.handleChange} />
+            <div className="enter-str">Enter a Stock Ticker (GME, AMC, etc..)</div>
+            <input className="srch" type="text" value={question} onChange={this.handleChange}/>
           </label>
         <input type="submit" value="Submit" />
         </form>
         <div className="App-stock-info">
-          <h1>Short Ratio: {answer.shortRatio}</h1>
-          <h1>Short Percent of Float: {answer.shortPercentOfFloat}</h1>
-          <h1>Average Daily Volume (10-Day): {answer.averageDailyVolume10Day}</h1>
-          <h1>Short Term Trend: {answer.shortTermTrend}</h1>
+          <h1>{ratiofield} {answer.shortRatio}</h1>
+          <h1>{shortpercent} {answer.shortPercentOfFloat}</h1>
+          <h1>{avgvol} {answer.averageDailyVolume10Day}</h1>
+          <h1>{shorttrend} {answer.shortTermTrend}</h1>
           <h2 className="App-recc">{recc}</h2>
         </div>
         </header>
