@@ -24,7 +24,7 @@ Stonk info used:
 
 
 The stock is given a score and is graded on 9 based on ratio ranges we set. 
-The app posts statistics along with one of three messages: there is a potential short squeeze opportunity, there is no opportunity (the stock's ratios are healthy) or there is no way of knowing on way or the other.
+The app posts statistics along with one of three messages: there is a potential short squeeze opportunity, there is no opportunity (the stock's ratios are healthy) or there is no way of knowing one way or the other.
 
 
 * Disclaimer: we are not financial advisors. None of the information this platform provides should be taken seriously, nor should it be used to make investment decisions.
