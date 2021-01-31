@@ -11,10 +11,10 @@ CORS(app)
 def home():
     return "ok"
 
-# testing method
-# @app.route('/api/get_test')
-# def get_topics():
-#     return {"test": ["a", "b", "c"]}
+#testing method on deploy
+@app.route('/api/get_test')
+def get_topics():
+    return {"test": ["a", "b", "c"]}
 
 # testing method
 # @app.route('/api/submit_question', methods=["POST"])
@@ -28,7 +28,7 @@ def request_stock_from_api():
 
     # change "question" with whatever named in App.js
     requested_stock = json.loads(request.data)["question"]
-    
+
     try:
     # get stock info
         url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-statistics"
